@@ -1,132 +1,13 @@
 ckfontmaps
 ==========
 
-Current release: $VER$
-
-The files contained in this package contains font maps for dvipdfmx to
-make various Chinese/Korean fonts available for (u)ptex and related programs
+This bundle provides font maps for dvipdfmx to make various
+Chinese/Korean fonts available for (u)ptex and related programs
 and formats.
 
-The font maps were written by several people, including (in alphabetic order)
-  Hironori Kitagawa
-  Norbert Preining
-  Saito Shuzaburo
-  Takuji Tanaka
-  Hironobu Yamashita
-and are now maintained in the github.com git repository:
-  https://github.com/texjporg/ckfontmaps
+Note: This bundle is now integrated into ptex-fontmaps bundle.
+See [jfontmaps](https://github.com/texjporg/jfontmaps) for detail.
+Also, the files in tl-updates directory are now installed in
+TeX Live (see r42939--r42950).
 
-Families, support, and necessary font files
-===========================================
-This package does *not* ship any of the fonts mentioned, but only
-map files for dvipdfmx. You have to obtain the fonts separately.
-For baekmuk and unfonts (Korean), the respective fonts a shipped in TeX Live
-and are available for free.
-
-If in the following tables some fonts are marked with 
-	'(<= "...")
-it means that the fonts are originally named as in given within
-the parenthesis, but need to be renamed to the name given first.
-
-Simplified Chinese
-==================
-
-* noEmbed - no embedding is done at all, fonts are selected by the viewer
-    (no font needed for dvipdfmx)
-
-* ms - SimSun and SimHei, shipped with Windows
-    simsun.ttc
-    simhei.ttf
-
-* sinotype - by SinoType Technology Co., Ltd
-    STSong.ttf
-    STHeiti.ttf
-
-* adobe - by Adobe Systems, bundled with Adobe's software
-    AdobeSongStd-Light.otf
-    AdobeHeitiStd-Regular.otf
-
-* arphic - BousungEG-Light-GB and GBZenKai-Medium
-    gbsn00lp.ttf
-    gkai00mp.ttf
-
-* cjkunifonts - UMingCN and UKaiCN
-    uming.ttc
-    ukai.ttc
-
-* cjkunifonts-ttf - ShanHeiSun-Uni and ZenKai-Uni (old distribution of above)
-    uming.ttf
-    ukai.ttf
-
-Traditional Chinese
-===================
-
-* noEmbed - no embedding is done at all, fonts are selected by the viewer
-    (no font needed for dvipdfmx)
-
-* ms - MingLiU and MicrosoftMHei, shipped with Windows
-    mingliu.ttf
-    MSMHei.ttf
-
-* dynacomware - DynaComware Taiwan Inc.
-    LiSongPro.ttf
-    LiHeiPro.ttf
-
-* adobe - by Adobe Systems, bundled with Adobe's software
-    AdobeMingStd-Light.otf
-    AdobeFanHeitiStd-Bold.otf
-
-* arphic - ShanHeiSun-Light and ZenKai-Medium
-    bsmi00lp.ttf
-    bkai00mp.ttf
-
-* cjkunifonts - UMingTW and UKaiTW
-    uming.ttc
-    ukai.ttc
-
-* cjkunifonts-ttf - ShanHeiSun-Uni and ZenKai-Uni (old distribution of above)
-    uming.ttf
-    ukai.ttf
-
-Korean
-======
-
-* noEmbed - no embedding is done at all, fonts are selected by the viewer
-    (no font needed for dvipdfmx)
-
-* ms - Batang and Dotum, shipped with Windows
-    batang.ttc
-    gulim.ttc
-
-* apple - Apple fonts, bundled with OSX
-    AppleMyungjo.ttf
-    AppleGothic.ttf
-
-* adobe - by Adobe Systems, bundled with Adobe's software
-    AdobeMyungjoStd-Medium.otf
-    AdobeGothicStd-Bold.otf
-
-* baekmuk - Baekmuk-Batang and Baekmuk-Dotum
-    batang.ttf
-    dotum.ttf
-
-* unfonts - Unfonts-core bundle
-    UnBatang.ttf
-    UnDotum.ttf
-
-* solaris - Myeongjo and Gothic, bundled with Solaris 10/11
-    h2mjsm.ttf
-    h2gtrm.ttf
-
-
-Copyright/License
-=================
-All the (c)map files are under Public Domain.
-
-The bundle is licensed under the following terms:
-  Copyright 2004-2006 by KOBAYASHI Taizo
-  Copyright 2011-2016 by PREINING Norbert
-  Copyright 2016-     by Japanese TeX Development Community
-Licensed under the GPL version 3 or any later version, 
-see the file for details.
-
+Japanese TeX Development Community
